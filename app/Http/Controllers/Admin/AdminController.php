@@ -20,6 +20,6 @@ class AdminController extends Controller
     }
 
     public function users(){
-        return view('Admin.controlPlanel.users')
+        return view('Admin.controlPlanel.users');
     }
 }
